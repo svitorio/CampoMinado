@@ -21,7 +21,7 @@ public class Tabuleiro {
 
 	int linhas;
 	int colunas;
-	private Map<Coordenada, Zona> mapa;
+	public Map<Coordenada, Zona> mapa;
 	private Collection<Coordenada> bombas;
 
 	public Tabuleiro() {

@@ -76,6 +76,7 @@ public class CampoMinado {
 			if(j.getAcao() == Acao.MARCAR)
 				throw new AcaoInvalidaException("Você já MARCOU essa zona, mas pode INVESTIGAR caso se arrependeu.");
 		case VAZIO:
+			return true;
 		default:
 			return true;
 		}

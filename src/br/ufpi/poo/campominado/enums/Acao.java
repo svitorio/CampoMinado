@@ -5,7 +5,7 @@ package br.ufpi.poo.campominado.enums;
  *
  */
 public enum Acao {
-	MARCAR("Marcar"), INVESTIGAR("Investigar");
+	MARCAR("Marcar"), INVESTIGAR("Investigar"),VAZIA("Vazia");
 
 	private String descricao;
 
