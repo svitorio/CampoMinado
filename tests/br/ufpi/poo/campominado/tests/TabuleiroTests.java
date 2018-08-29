@@ -75,7 +75,7 @@ public class TabuleiroTests {
 		
 		assertEquals(t.getQtdeZonas(EstadoZona.MARCADO),t.getQtdeBombas());
 	}
-	@Test
+	/*@Test
 	public void testInvestigarNaoBombas() throws PosicaoInvalidaException, AcaoInvalidaException, BombaExplodiuException{
 		CampoMinado cm = new CampoMinado();
 		cm.reseta();
@@ -92,7 +92,7 @@ public class TabuleiroTests {
 		}
 		
 		assertEquals(t.getQtdeZonasLivres(),0);
-	}
+	}*/
 
 
 }
